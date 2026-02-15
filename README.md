@@ -6,6 +6,8 @@
 
 Aby uruchomić wpisz:
 
+git clone https://github.com/MikolajMerito/narzedzia_pracy_front_end_developera_projekt
+
 1. $ npm install
 2. $ npm run dev
 3. $ npm run build
