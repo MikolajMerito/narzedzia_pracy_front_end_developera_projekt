@@ -1,37 +1,83 @@
-# Projekt zaliczeniowy na przedmiot Narzędzia Pracy Front End Developera
+# 🎬 Movie Search App  
+## Projekt zaliczeniowy – Narzędzia Pracy Front End Developera
 
-- Strona korzysta z [OMDb API](https://www.omdbapi.com/)
-- SASS
+Aplikacja umożliwia wyszukiwanie filmów i seriali przy użyciu **[OMDb API](https://www.omdbapi.com)**.  
+
+---
+
+##  Technologie
+
+- Sass
 - Webpack
 
-Aby uruchomić wpisz:
+---
 
-$ git clone https://github.com/MikolajMerito/narzedzia_pracy_front_end_developera_projekt
+## Uruchomienie projektu lokalnie
 
-1. $ npm install
-2. $ npm run dev
-3. $ npm run build
+### 1️. Sklonuj repozytorium
 
-Przykładowe zestawy ustawień do przetestowania:
+```bash
+git clone https://github.com/MikolajMerito/narzedzia_pracy_front_end_developera_projekt.git
+```
 
-1. Tryb - Dokładny tytuł:
+### 2️. Przejdź do folderu projektu
 
-- Interstellar
-- Inception
-- The Matrix
-- Parasite
-- Shrek
-- Gladiator
-- The Godfather
-- Pulp Fiction
+```bash
+cd narzedzia_pracy_front_end_developera_projekt
+```
 
-2. Tryb - Lista wyników: 
+### 3️. Zainstaluj zależności
 
-- Batman
-- Star Wars
-- Harry Potter
-- Spider-Man
-- Avengers
-- Mission Impossible
+```bash
+npm install
+```
 
-Autor: Mikołaj Zgirski nr_indeksu: 82743
+### 4. Uruchom:
+
+```bash
+npm run dev
+```
+
+### 5. Wygeneruj folder /dist:
+
+```bash
+npm run build
+```
+
+## Funkcjonalności
+
+    Wyszukiwanie po dokładnym tytule
+
+    Wyszukiwanie listy wyników
+
+    Filtrowanie po typie (film / serial)
+
+## Przykładowe dane do testowania: 
+Tryb – Dokładny tytuł:
+
+    Interstellar
+
+    Inception
+
+    The Matrix
+
+    Parasite
+
+    Shrek
+
+Tryb – Lista wyników:
+
+    Batman
+
+    Star Wars
+
+    Harry Potter
+
+    Spider-Man
+
+    Avengers
+
+## Autor
+
+Mikołaj Zgirski
+Nr indeksu: 82743
