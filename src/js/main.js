@@ -1,3 +1,5 @@
+import "../scss/style.scss";
+
 const movie_input = document.querySelector("#movie_input");
 const search_button = document.querySelector("#search_button");
 const movie_title = document.querySelector("#movie_title");

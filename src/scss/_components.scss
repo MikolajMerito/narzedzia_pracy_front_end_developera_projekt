@@ -11,8 +11,8 @@
     padding: 10px 12px;
     border: 1px solid $control-border;
     border-radius: $radius-md;
-    background: $card-bg;
-    color: $text-heading;
+    background: #ffffff;
+    color: #111111;
   }
 
   select {
@@ -20,6 +20,12 @@
       background: #ffffff;
       color: #111111;
     }
+  }
+
+  input:focus,
+  select:focus {
+    outline: 2px solid $color-accent;
+    outline-offset: 2px;
   }
 
   button {
