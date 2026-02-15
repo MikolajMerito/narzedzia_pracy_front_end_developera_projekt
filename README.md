@@ -1,4 +1,4 @@
-# 🎬 Movie Search App  
+# Movie Search App  
 ## Projekt zaliczeniowy – Narzędzia Pracy Front End Developera
 
 Aplikacja umożliwia wyszukiwanie filmów i seriali przy użyciu **[OMDb API](https://www.omdbapi.com)**.  
@@ -50,7 +50,7 @@ npm run dev
 
 ## 5. Przetestuj:
 
-Przykładowe dane do testowania: 
+Przykładowe dane do testowania (W przypadku braku wyszukania prosze odświeżyć): 
 Tryb – Dokładny tytuł:
 
     Interstellar
