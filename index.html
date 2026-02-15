@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Movie Search:</h1>
+
+        <div class="search_box">
+            <input type="text" id="movie_input" placeholder="Enter movie title...">
+
+            <select id="search_mode">
+                <option value="t">Dokładny tytuł</option>
+                <option value="s">Lista wyników</option>
+            </select>
+
+            <select id="type_filter">
+                <option value="">Wszystkie typy</option>
+                <option value="movie">Film</option>
+                <option value="series">Serial</option>
+                <option value="episode">Odcinek</option>
+            </select>
+
+            <button id="search_button">Szukaj</button>
+        </div>
+
+        <div id="movie_info" class="movie_info">
+
+            <div id="movie_header" class="movie_header">
+                <h2 id="movie_title">Tytuł: </h2>
+                <img id="movie_poster" src="" alt="">
+            </div>
+
+            <div id="movie_details" class="movie_details">
+                <div id="left_section" class="left_section">
+                    <p id="movie_release_year">Rok wydania: </p>
+                    <p id="movie_age_rating"> Od lat: </p>
+                    <p id="movie_runtime">Czas Trwania: </p>
+                </div>
+
+                <div id="right_section" class="right_section">
+                    <p id="movie_rating">Ocena: </p>
+
+                    <p id="movie_director">Rezyser: </p>
+                    <p id="movie_writers">Scenariusz: </p>
+                    <p id="movie_actors">Aktorzy: </p>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="results"></div>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

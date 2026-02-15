@@ -1,0 +1,136 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.search_box {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 16px;
+
+  input,
+  select {
+    padding: 10px 12px;
+    border: 1px solid $control-border;
+    border-radius: $radius-md;
+    background: $card-bg;
+    color: $text-heading;
+  }
+
+  select {
+    option {
+      background: #ffffff;
+      color: #111111;
+    }
+  }
+
+  button {
+    padding: 10px 12px;
+    border: 0;
+    border-radius: $radius-md;
+    background: $color-accent;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+
+    &:hover {
+      background: $color-accent-dark;
+      transform: translateY(-1px);
+    }
+  }
+
+  @include desktop {
+    grid-template-columns: 1fr auto;
+    align-items: center;
+
+    button,
+    input,
+    select {
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+/* Movie info */
+#movie_info {
+  margin-top: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.movie_header {
+  display: grid;
+  gap: 10px;
+}
+
+#movie_title {
+  font-family: $ff-accent;
+  font-size: 1.3rem;
+  color: $text-heading;
+}
+
+#movie_poster {
+  width: 100%;
+  max-width: 360px;
+  border-radius: $radius-lg;
+  justify-self: center;
+}
+
+.movie_details {
+  display: grid;
+  gap: 10px;
+  color: $text-main;
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 18px;
+  }
+}
+
+@include desktop {
+  #movie_poster {
+    max-width: 420px;
+  }
+}
+
+/* Results list */
+.results {
+  margin-top: 16px;
+  display: grid;
+  gap: 12px;
+
+  @include desktop {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.result_card {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 12px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  background: $results-card-bg;
+  cursor: pointer;
+
+  &:hover {
+    outline: 2px solid $results-outline;
+  }
+
+  img {
+    width: 80px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: $radius-md;
+  }
+}
+
+.result_title {
+  font-family: $ff-accent;
+  color: $text-heading;
+}
+
+.result_meta {
+  color: $text-main;
+  font-size: 0.95rem;
+}

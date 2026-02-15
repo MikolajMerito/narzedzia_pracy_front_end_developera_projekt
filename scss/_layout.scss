@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  font-family: $ff-primary;
+  background: $bg;
+  color: $text-heading;
+}
+
+main {
+  width: min(720px, 100%);
+  background: $card-bg;
+  padding: 20px;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-card;
+}
+
+h1 {
+  font-family: $ff-accent;
+  margin-bottom: 12px;
+}
