@@ -5,6 +5,16 @@ Aplikacja umożliwia wyszukiwanie filmów i seriali przy użyciu **[OMDb API](ht
 
 ---
 
+## Funkcjonalności
+
+    Wyszukiwanie po dokładnym tytule
+
+    Wyszukiwanie listy wyników
+
+    Filtrowanie po typie (film / serial)
+
+---
+
 ##  Technologie
 
 - Sass
@@ -38,21 +48,9 @@ npm install
 npm run dev
 ```
 
-### 5. Wygeneruj folder /dist:
+## 5. Przetestuj:
 
-```bash
-npm run build
-```
-
-## Funkcjonalności
-
-    Wyszukiwanie po dokładnym tytule
-
-    Wyszukiwanie listy wyników
-
-    Filtrowanie po typie (film / serial)
-
-## Przykładowe dane do testowania: 
+Przykładowe dane do testowania: 
 Tryb – Dokładny tytuł:
 
     Interstellar
@@ -76,6 +74,14 @@ Tryb – Lista wyników:
     Spider-Man
 
     Avengers
+
+    
+
+### 6. Wygeneruj folder /dist:
+
+```bash
+npm run build
+```
 
 ## Autor
 
