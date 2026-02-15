@@ -1,8 +1,8 @@
 # Projekt zaliczeniowy na przedmiot Narzędzia Pracy Front End Developera
 
-## Strona korzysta z [OMDb API](https://www.omdbapi.com/)
-## SASS
-## Webpack
+- Strona korzysta z [OMDb API](https://www.omdbapi.com/)
+- SASS
+- Webpack
 
 Aby uruchomić wpisz:
 
